@@ -1,0 +1,21 @@
+.like_Unlike {
+    margin-left: 45%;
+    margin-top: 40vh;
+    display: flex;
+}
+
+.likes {
+    margin-right: 10px;
+}
+
+.button {
+    margin-left: 46%;
+    margin-top: 1vh;
+}
+
+
+
+.login {
+    margin-left: 43%;
+    margin-top: 38vh;
+}

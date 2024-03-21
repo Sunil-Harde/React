@@ -1,0 +1,38 @@
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    background: rgb(255, 149, 0);
+    border-radius: 10px;
+    color: black;
+    width: 100px;
+    margin: 10px;
+}
+
+table{
+    background: #000;
+    color: aliceblue;
+    width: 100%;
+}
+td{
+    
+}
+
+main{
+    margin-top: 50px;
+    text-align: center; 
+    justify-content: center;
+    display: flex;
+}
+
+.red{
+
+}
+
+.s{
+    background: #e8a5a5;
+    width: 50%;
+    margin-top: 30px;
+}

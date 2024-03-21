@@ -1,0 +1,27 @@
+body{
+    background: rgb(253, 77, 77);
+}
+
+.section1{
+    background: white;
+    width: 25%;
+    height: auto;
+    border-radius:20px ;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 5%;
+    box-shadow: 5px 5px ;
+}
+
+button{
+    background: #000;
+    margin-left: 45%;
+    margin-top: 15%;
+    color: white;
+    border-radius: 5px;
+}
+
+.section1 p{
+    display: block;
+    text-align: center;
+}

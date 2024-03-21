@@ -1,0 +1,29 @@
+.demo {
+    height: 100vh;
+}
+
+.text1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    inset: 0px;
+    padding: 2px 0px 2px 0px;
+}
+
+.text2 {
+    position: fixed;
+    display: flex;
+    top: 80%;
+    flex-wrap: wrap;
+    background: white;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+button {
+    border-radius: 30px;
+    border: none;
+    padding: 5px 20px;
+}
