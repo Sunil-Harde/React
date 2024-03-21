@@ -1,0 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.body{
+    background: linear-gradient(to right, red,rgb(255, 128, 0));
+    font-family: monospace;
+}
+

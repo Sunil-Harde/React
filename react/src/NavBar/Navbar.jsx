@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react'
 import './Navbar.css'
 
@@ -7,31 +8,24 @@ const Navbar = () => {
     return (
         <div>
 
-            <nav className="nav">
+            <img src="https://cdn.pixabay.com/photo/2017/08/07/19/41/to-do-2607082_1280.jpg" alt="" />
+            <div className="header">
 
-                <div className="right">
-                    <a href=""><i>Logo</i></a>
+                <a href="" className="logo">
+                    <i>LOGO</i>
+                </a>
+
+                <label htmlFor="check" className="icon"><i className="fa-solid fa-bars">0</i></label>
+                <input type="checkbox" id="check" />
+
+                <div className="navbar1">
+                    <a href="#">Home</a>
+                    <a href="#">Gallery</a>
+                    <a href="#">Photo</a>
+                    <a href="#">About</a>
                 </div>
-
-                
-                    <ul className="left">
-                        <li><a href="" id='home'>Home</a></li>
-                        <li><a href="">Gallery</a></li>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href=""></a></li>
-                    </ul>
-      
-
-
-                <label htmlFor="logo1" className="logo">@</label>
-                <input type="Checkbox" name="" id="logo1" />
-
-
-            </nav>
-
+            </div>
         </div>
     )
 }
-
 export default Navbar

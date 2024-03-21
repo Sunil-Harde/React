@@ -261,13 +261,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 //         price: 223,
 //     }
 
-
 //     return (
 //         <div>
-
 //             <h2>{book.bookName}</h2>
 //             <h4>{book.price}</h4>
-
 //         </div>
 //     );
 // }
@@ -378,18 +375,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 // export default App
 
 
-// import Demo from './ColorChange/Colour'
-
-// function App() {
-//     return (
-//         <div>
-//             <Demo />
-//         </div>
-//     )
-// }
-
-// export default App
-
 
 // import Forwardref from './Hook/forwardRef/forwardRf.jsx'
 
@@ -425,12 +410,51 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 // #########################PROJECT####################
 
-// import Convert from '/react/'
+// import StopWatch from './Projects/StopWatch/Stope'
 
 // function App() {
 //     return (
 //         <div>
+//         <StopWatch/>
+//         </div>
+//     )
+// }
 
+// export default App
+
+
+// import Demo from './ColorChange/Colour'
+
+// function App() {
+//     return (
+//         <div>
+//             <Demo />
+//         </div>
+//     )
+// }
+
+// export default App
+
+
+import Demo from "./Projects/ToDo/tran.jsx"
+
+function App() {
+    return (
+        <div>
+            <Demo />
+        </div>
+    )
+}
+
+export default App
+
+
+// import First from './Projects/DisonyHostar/First';
+
+// function App() {
+//     return (
+//         <div>
+//             <First />
 //         </div>
 //     )
 // }
