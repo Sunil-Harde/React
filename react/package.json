@@ -9,6 +9,13 @@
         "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
         "preview": "vite preview"
     },
+    {
+  "name": "my-package",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
+  }
+},
     "dependencies": {
         "@zegocloud/zego-uikit-prebuilt": "^1.8.15",
         "boostrap": "^2.0.0",
